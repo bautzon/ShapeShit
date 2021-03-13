@@ -4,8 +4,8 @@ public abstract class Shapes {
   double width, height;
 
 // Constructor
-public ShapeConstructer(String name, double width, double height) {
-  super(); 
+public Shapes(String name, double width, double height) {
+  super(name, width, height);
   this.name = name;
   this.width = width;
   this.height = height;
@@ -23,7 +23,7 @@ public ShapeConstructer(String name, double width, double height) {
 
   // Height
 
-    public String getHeight () {
+    public double getHeight () {
     return = height;
   }
 
@@ -31,9 +31,9 @@ public ShapeConstructer(String name, double width, double height) {
     this.height = height;
   }
 
-  // Widht
+  // Width
 
-  public String getWidth () {
+  public double getWidth () {
     return = width;
   }
 

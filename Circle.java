@@ -2,7 +2,7 @@
 public class Circle extends Shapes {
 
 //construct the shape
-  public Circle(String name, int width, int height) {
+  public Circle(String name, double width, double height) {
     super(name, width, height)
   }
 
