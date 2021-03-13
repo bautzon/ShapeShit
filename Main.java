@@ -18,8 +18,6 @@ Future Optional behaviour is
 import java.util.Scanner;
 import java.lang.Math;
 import java.io.*;
-
-
 //importing jaazzz
 
 import java.awt.Point;
@@ -30,18 +28,39 @@ import java.awt.geom.Rectangle2D;
 
 
 class Main {
-  public static void main(String[] args) {
-    Distance distanceObj = new Distance();
-    distanceObj.listCord();
+  double xOne = 10.0;
+  double yOne = 10.0;
+  double xTwo = 20.0;
+  double yTwo = 20.0;
+ 
 
+  public static void main(String[] args) {
+    
+    //Distance distanceObj = new Distance();
+    //distanceObj.listCord();
+
+  
     //prøver lige noget jaazzz
 
-    Shape s = new Rectangle2D.Double(0, 0, 72, 72);
-    
-    
-    System.out.println(s.contains(30,40));
+    //create rectangle
 
-    // Bjørns spas og løjer med distance
+    //Shape s = new Rectangle2D.Double(x1,y1,x2,y2);
+
+    // create circle
+
+   // //Shape circle = new Ellipse2D.Double(double x, double y, double w, double h);
+
+    //System.out.println(circle.contains(30,40));
+    
+   // Shape triangle = new Triangle(side1, side2, side3)
+    
+    // https://docs.oracle.com/javase/7/docs/api/java/awt/geom/Ellipse2D.Double.html
+
+    // triangle 
+
+    
+    
+    //System.out.println(s.contains(30,40));
     
 
 
