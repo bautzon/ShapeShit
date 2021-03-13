@@ -1,15 +1,15 @@
 public class Triangles extends Shapes {
-  public static double TriArea(double h, double l){
-    double TriArea = (l * h)/2;
+  public static double triArea(double h, double l){
+    double triArea = (l * h)/2;
     System.out.print("The area of the triangle is: ");
-    System.out.print(TriArea);
-    return TriArea;
+    System.out.print(triArea);
+    return triArea;
   }
-  public static double TriCircum(double l){
-    double TriCircumference = l + l + l;
+  public static double triCircum(double l){
+    double triCircumference = l + l + l;
     System.out.println("The Circumference of the triangle is: ");
-    System.out.print(TriCircumference);
-    return TriCircumference;
+    System.out.print(triCircumference);
+    return triCircumference;
   }
   
 }

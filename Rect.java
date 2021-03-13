@@ -1,4 +1,4 @@
-class Rect extends Shapes {
+class Rect extends Shapes{
   
   public double rectArea(double h, double l){
     double rectAreal = l * h;

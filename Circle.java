@@ -8,7 +8,7 @@ public class Circle extends Shapes {
     return Circle_a;
   }
 
-  public double circleCircumference(double radius) {
+  public double circleCircum(double radius) {
     double circle_circumference = Math.PI * (radius * 2);
     System.out.print("The circumference of the circle is: ");
     System.out.print(circle_circumference);
