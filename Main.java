@@ -23,14 +23,12 @@ import java.io.*;
 
 class Main {
   public static void main(String[] args) {
-   System.out.println("\n \n \n ");
+
+   // Distance distance = new Distance();
+  //Distance.calculateDistance(); 
 
 
 
-
-
-
-   
    double h = 10;
    double l = 15;
    double radius = 5;
