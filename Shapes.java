@@ -3,6 +3,14 @@ public abstract class Shapes {
   String name;
   double width, height;
 
+// Constructor
+public ShapeConstructer(String name, double width, double height) {
+  super(); 
+  this.name = name;
+  this.width = width;
+  this.height = height;
+}
+
 // generate getters and setters
 
   public String getName () {
@@ -33,13 +41,8 @@ public abstract class Shapes {
     this.width = width;
   }
 
+  // abstract keyword allows us to declare a method and fill the body in the subclass 
+  abstract double calculateArea(double width, double height); 
+  abstract double calculateCircumference(double width, double height);
 
-
-
-
-
-  public interface Shape {
-
-    int calculateArea();
-  }
 }

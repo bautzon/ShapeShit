@@ -1,5 +1,17 @@
 
-public class Circle extends shapes {
+public class Circle extends Shapes {
+
+//construct the shape
+  public Circle(String name, int width, int height) {
+    super(name, width, height)
+  }
+
+  public double calculateArea() {
+    double Circle_a = Math.PI * (radius * radius);
+    System.out.print("The area of the circle is: ");
+    System.out.println(Circle_a);
+    return Circle_a;
+  }
 
   public double circleArea(double radius) {
     double Circle_a = Math.PI * (radius * radius);
